@@ -6,7 +6,7 @@ import torch.nn.functional as F
 import torchvision.models
 import copy
 
-from model.network_utils import Identity
+from full_project.model.network_utils import Identity
 
 
 def remove_batch_norm_from_resnet(model):

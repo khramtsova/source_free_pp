@@ -3,8 +3,7 @@ from robustbench.utils import load_model
 import copy
 from torch.utils import model_zoo
 from torchvision.models.resnet import resnet18, resnet50
-import torch.nn as nn
-from model.network_utils import Identity
+from full_project.model.network_utils import Identity
 
 
 

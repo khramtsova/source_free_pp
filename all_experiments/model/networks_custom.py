@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch
 import copy
-from model.network_utils import Identity
+from full_project.model.network_utils import Identity
 from torchvision.models.densenet import densenet121
 from torchvision.models.resnet import resnet50
 

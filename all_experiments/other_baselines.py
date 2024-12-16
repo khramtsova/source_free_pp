@@ -5,14 +5,13 @@ import numpy as np
 import torch
 from torch.utils.data import DataLoader
 from torch import nn
-from data.datasets import get_dataset
+from full_project.data.datasets import get_dataset
 from utils.multivar_distr import log_prob_logsumexp_trick
 
 from pred_source_free import compute_gmm_stats, get_per_class_log_probs
-from utils.get_args import get_args, seed_everything
+from all_experiments.utils.get_args import get_args, seed_everything
 from utils.logger import Logger
 from main import Model
-from utils.ATC_helpers.utils import softmax_numpy, inverse_softmax_numpy, get_entropy
 from sklearn.manifold import TSNE
 
 import ot
